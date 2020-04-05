@@ -10,9 +10,9 @@ const main = () => new Promise(async () => {
 
     var register = 1
     if(register == 1){
-        console.log(`(${moment().format('HH:mm:ss')}) okelur@gmail.com Created!`.green)
+        console.log(`(${moment().format('HH:mm:ss')}) example@gmail.com Created!`.green)
     }else{
-        console.log(`(${moment().format('HH:mm:ss')}) okelur@gmail.com Failed!`.red)
+        console.log(`(${moment().format('HH:mm:ss')}) example@gmail.com Failed!`.red)
     }
     await delay(3000)
 
